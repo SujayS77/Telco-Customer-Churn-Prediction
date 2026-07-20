@@ -12,10 +12,8 @@ Telco Customer Churn dataset (Kaggle) — ~7,043 customers, 19 features (demogra
 3. **Preprocessing** — built a `ColumnTransformer` combining `StandardScaler` for numeric features and `OneHotEncoder` for categoricals, wrapped in a single `Pipeline` with the model to keep training and inference preprocessing consistent.
 4. **Modeling** — trained a `RandomForestClassifier`. Evaluated using precision, recall, and F1 (not just accuracy, given class imbalance).
 5. **Serving** — wrapped the trained pipeline in a FastAPI `/predict` endpoint returning churn prediction and probability.
-6. **Deployment** — wrote a `Dockerfile` and `requirements.txt` to containerize the service. *(Note: local Docker build pending — Docker Desktop requires virtualization enabled in BIOS, not yet enabled on this machine. The Dockerfile is written and ready; the service runs and serves predictions locally via `uvicorn`.)*
+6. **Deployment** — wrote a `Dockerfile` and `requirements.txt` to containerize the service. *(Note: local Docker build pending — Docker Desktop requires virtualization enabled in BIOS, not yet enabled on my pc. The Dockerfile is written and ready; the service runs and serves predictions locally via `uvicorn`.)*
 
-## Results
-[Paste your classification_report numbers here — precision/recall/F1 for the churn class]
 
 ## Project structure
 ├── data/raw/ # original dataset
