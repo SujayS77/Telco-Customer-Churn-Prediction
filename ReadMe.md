@@ -17,11 +17,15 @@ Telco Customer Churn dataset (Kaggle) — ~7,043 customers, 19 features (demogra
 
 ## Project structure
 ├── data/raw/ # original dataset
+
 ├── notebooks/ # EDA and preprocessing exploration
+
 ├── src/
 │ ├── train.py # training script
 │ └── app.py # FastAPI serving app
+
 ├── models/ # saved trained pipeline
+
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
