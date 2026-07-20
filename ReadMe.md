@@ -1,4 +1,4 @@
-# Customer Churn Prediction
+# Telco Customer Churn Prediction
 
 ## Problem
 Telecom companies lose revenue when customers churn (cancel service). This project predicts whether a customer is likely to churn based on their account details, services subscribed, and billing information — enabling proactive retention efforts.
